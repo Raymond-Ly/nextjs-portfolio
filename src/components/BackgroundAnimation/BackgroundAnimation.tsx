@@ -255,7 +255,7 @@ const BackgroundAnimation = () => (
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(301 301) rotate(90) scale(300)"
         >
-          <stop offset="0.333333" stopColor="#FBFBFB" />
+          <stop offset="0.333333" stopColor="#FDE295" />
           <stop offset="1" stopColor="white" stopOpacity="0" />
         </radialGradient>
         <linearGradient
@@ -267,7 +267,7 @@ const BackgroundAnimation = () => (
           gradientUnits="userSpaceOnUse"
         >
           <stop stopColor="#945DD6" />
-          <stop offset="1" stopColor="#945DD6" stopOpacity="0" />
+          <stop offset="1" stopColor="#FDE295" stopOpacity="0" />
         </linearGradient>
         <linearGradient
           id="paint4_linear"
@@ -278,7 +278,7 @@ const BackgroundAnimation = () => (
           gradientUnits="userSpaceOnUse"
         >
           <stop stopColor="#945DD6" />
-          <stop offset="1" stopColor="#945DD6" stopOpacity="0" />
+          <stop offset="1" stopColor="#FDE295" stopOpacity="0" />
         </linearGradient>
         <linearGradient
           id="paint5_linear"

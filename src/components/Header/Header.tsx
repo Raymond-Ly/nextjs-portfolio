@@ -41,10 +41,10 @@ const Header = () => {
         })}
       </NavLinksDiv>
       <IconsDiv>
-        <SocialIcons href="https://github.com/ray-itech">
+        <SocialIcons href="https://github.com/ray-itech" target="_blank">
           <AiFillGithub size="3rem" />
         </SocialIcons>
-        <SocialIcons href="https://www.linkedin.com/in/raymond-ly20">
+        <SocialIcons href="https://www.linkedin.com/in/raymond-ly20" target="_blank">
           <AiFillLinkedin size="3rem" />
         </SocialIcons>
       </IconsDiv>
