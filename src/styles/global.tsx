@@ -18,7 +18,7 @@ const GlobalStyles = createGlobalStyle`
   body {
     font-family: Space Grotesk, sans-serif;
     font-size: 1.6rem;
-    background: #9EB879;
+    background: #212121;
     color: hsl(204,23.8%,95.9%);
     cursor: default;
   }
