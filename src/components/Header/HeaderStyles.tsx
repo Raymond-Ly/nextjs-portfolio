@@ -8,7 +8,7 @@ export const Container = styled.div`
   padding: 1rem;
   padding-top: 2rem;
 
-  @media ${(props) => props.theme.breakpoints.sm} {
+  @media screen and (max-width: 640px) {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(2, 60px);
@@ -23,7 +23,7 @@ export const LogoDiv = styled.div`
   flex-direction: row;
   align-content: center;
 
-  @media ${(props) => props.theme.breakpoints.sm} {
+  @media screen and (max-width: 640px) {
     grid-area: 1 / 1 / 2 / 3;
   }
 `;
@@ -34,7 +34,7 @@ export const NavLinksDiv = styled.div`
   justify-content: space-between;
   width: 500px;
 
-  @media ${(props) => props.theme.breakpoints.sm} {
+  @media screen and (max-width: 640px) {
     grid-area: 2 / 2 / 3 / 5;
   }
 `;
@@ -45,7 +45,7 @@ export const IconsDiv = styled.div`
   justify-content: space-around;
   align-items: center;
 
-  @media ${(props) => props.theme.breakpoints.sm} {
+  @media screen and (max-width: 640px) {
     align-items: center;
     grid-area: 1 / 4 / 2 / 6;
   }
@@ -62,7 +62,7 @@ export const NavLink = styled.a`
     opacity: 1;
     cursor: pointer;
   }
-  @media ${(props) => props.theme.breakpoints.sm} {
+  @media screen and (max-width: 640px) {
     padding: 0.5rem;
   }
 `;

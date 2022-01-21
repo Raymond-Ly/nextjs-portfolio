@@ -5,11 +5,13 @@
     "dev": "next dev",
     "build": "next build && next export",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "test": "react-scripts test"
   },
   "dependencies": {
     "@contentful/rich-text-react-renderer": "^15.11.1",
     "@contentful/rich-text-types": "^15.11.1",
+    "@jest/types": "^27.4.2",
     "@octokit/rest": "^18.12.0",
     "@types/styled-components": "^5.1.20",
     "contentful": "^9.1.5",
@@ -17,14 +19,19 @@
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "react-icons": "^4.3.1",
+    "react-scripts": "^5.0.0",
     "styled-components": "^5.3.3",
     "styled-normalize": "^8.0.7"
   },
   "devDependencies": {
+    "@testing-library/jest-dom": "^5.16.1",
+    "@testing-library/react": "^12.1.2",
     "@types/node": "17.0.10",
     "@types/react": "17.0.38",
+    "babel-jest": "^27.4.6",
     "eslint": "8.7.0",
     "eslint-config-next": "12.0.8",
+    "jest": "^27.4.7",
     "typescript": "4.5.5"
   }
 }

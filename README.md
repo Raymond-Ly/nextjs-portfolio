@@ -18,6 +18,10 @@ https://ray-portfolio.vercel.app/
 
 To build statically, run `yarn build` and view the generated HTML in the `./out` directory.
 
+## Unit Tests
+
+Run `yarn test` to run all tests.
+
 ## Linting
 
 Run `yarn lint` to view warnings/errors. Add `--fix` to fix.
