@@ -1,5 +1,12 @@
 import React from "react";
-import { Container, Div1, Div2, Div3, NavLink, SocialIcons } from './HeaderStyles';
+import {
+  Container,
+  LogoDiv,
+  NavLinksDiv,
+  IconsDiv,
+  NavLink,
+  SocialIcons
+} from './HeaderStyles';
 import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
 import { DiAtom } from 'react-icons/di';
 import Link from 'next/link';
@@ -13,14 +20,14 @@ const Header = () => {
 
   return (
     <Container>
-      <Div1>
+      <LogoDiv>
         <Link href="/">
           <a style={{ display: 'flex', alignItems: 'center', color: "white" }}>
             <DiAtom size="5rem" /> <span>Ray</span>
           </a>
         </Link>
-      </Div1>
-      <Div2>
+      </LogoDiv>
+      <NavLinksDiv>
         {navLinks.map((navLink) => {
           const anchor = `#${navLink.toLowerCase()}`
 
@@ -32,15 +39,15 @@ const Header = () => {
             </li>
           )
         })}
-      </Div2>
-      <Div3>
+      </NavLinksDiv>
+      <IconsDiv>
         <SocialIcons href="https://github.com/ray-itech">
           <AiFillGithub size="3rem" />
         </SocialIcons>
         <SocialIcons href="https://www.linkedin.com/in/raymond-ly20">
           <AiFillLinkedin size="3rem" />
         </SocialIcons>
-      </Div3>
+      </IconsDiv>
     </Container>
   )
 };
